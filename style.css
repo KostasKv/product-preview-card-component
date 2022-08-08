@@ -1,0 +1,149 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--dark-grayish-blue);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: 22px;
+    line-height: 33px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    color: var(--dark-grayish-blue)
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-image > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-content {
+    padding: 32px;
+    width: 300px;
+}
+
+.product-price {
+    display: inline-block;
+    color: var(--dark-cyan);
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.product-price-before-discount {
+    display: inline-block;
+    margin-left: 14px;
+    text-decoration: line-through;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+    vertical-align: super;
+}
+
+.btn-cart {
+    background-color: var(--dark-cyan);
+    border-radius: 8px;
+    width: 235px;
+    height: 48px;
+    color: var(--white);
+    border-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-cart:hover {
+    background-color: hsl(159, 39%, 20%);
+    cursor: pointer;
+}
+
+.btn-cart > img {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 620px) {
+    .card {
+        flex-direction: column;
+        width: 345px;
+        height: 612px;
+    }
+    
+    .card-image > img {
+        object-fit: contain;
+        min-width: 345px;
+    }
+
+    .card-image {
+        height: 241px;
+    }
+
+    .btn-cart {
+        width: 295px;
+    }
+
+    .card-content {
+        padding: 25px;
+    }
+
+    h4 {
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        margin-top: 13px;
+        margin-bottom: 16px;;
+    }
+
+    .product-price {
+        margin-bottom: 23px;
+        margin-top: 18px;
+    }
+}
