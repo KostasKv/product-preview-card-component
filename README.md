@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-product-card-component-using-media-queries-T-eDjVchlM](https://www.frontendmentor.io/solutions/responsive-product-card-component-using-media-queries-T-eDjVchlM)
+- Live Site URL: [https://kostaskv-product-card-component.netlify.app](https://kostaskv-product-card-component.netlify.app)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 
 - VSCode command (Emmat: Wrap with Abbreviation) for wrapping selected text in HTML tags quickly. It even has the power to specify classes and inner elements too. It's a handy tool for quickly writing up the HTML.
 
-- Using picture tag for creating responsive images.
+- Using \<picture\> tag for creating responsive images.
 
 ```html
 <picture class="card-image">
@@ -74,7 +74,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [\<picture\> Element Sample](https://googlechrome.github.io/samples/picture-element/) - simple example of how <picture> is used and what the result is like
+- [\<picture\> Element Sample](https://googlechrome.github.io/samples/picture-element/) - simple example of how \<picture\> is used and what the result is like
 - [Emmet: Wrap with Abbreviation in VSCode example](https://stackoverflow.com/questions/40155875/how-to-do-tag-wrapping-in-vs-code) - Where I learned about Emmet and the command for quickly wrapping text in HTML using an abbreviation.
 - [Emmet in VSCode](https://code.visualstudio.com/docs/editor/emmet) - It seems worth learning a few tricks from Emmet. It could help with writing out code faster in all future web projects.
 - [KRuler](https://apps.kde.org/en-gb/kruler/) - On-screen ruler for measuring pixels on Linux.
@@ -83,5 +83,3 @@ Users should be able to:
 
 - Website - [Kostas Kvietinskas](https://www.kostask.com)
 - Frontend Mentor - [@KostasKv](https://www.frontendmentor.io/profile/kostaskv)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
