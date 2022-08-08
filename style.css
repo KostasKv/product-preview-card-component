@@ -6,9 +6,6 @@
     --white: hsl(0, 0%, 100%);
 }
 
-/* font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif; */
-
 html, body {
     height: 100%;
     margin: 0;
@@ -84,8 +81,6 @@ p {
     display: inline-block;
     margin-left: 14px;
     text-decoration: line-through;
-    /* margin-top: 0px; */
-    /* padding-top: 0px; */
     vertical-align: super;
 }
 
